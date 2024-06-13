@@ -1,0 +1,31 @@
+/** Two step order form on main funnel page. **/
+
+// Set background to transpartent and remove shadow
+div[id^='two-step-order'].container-order-form-two-step,
+div.container-order-form-two-step {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+div.form-title div.form-step span.form-heading {
+    color: #777;
+}
+
+div.form-title div.form-step span.form-heading.active {
+    color: #e07a5f;
+}
+
+div.divider-form {
+    background-color: #3d405b;
+}
+
+div.divider-form i.fas.fa-caret-up.caret-up {
+    color: #3d405b;
+}
+
+/** Page Elements **/
+
+// Divider
+.divider-element {
+    border-top: 2px solid #f8f7f2 !important;
+}
